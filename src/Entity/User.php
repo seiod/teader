@@ -8,7 +8,7 @@ use Doctrine\Common\Collections\ArryCollection;
 use Doctrine\Common\Collections\Collection;
 
 /**
- * User
+ * User Model
  *
  * @ORM\Table(name="users")
  * @ORM\Entity
