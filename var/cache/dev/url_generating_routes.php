@@ -14,5 +14,13 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
+    'bill' => [[], ['_controller' => 'App\\Controller\\BillController::index'], [], [['text', '/bill']], [], []],
+    'book' => [[], ['_controller' => 'App\\Controller\\BookController::index'], [], [['text', '/book']], [], []],
+    'note' => [[], ['_controller' => 'App\\Controller\\NoteController::index'], [], [['text', '/note']], [], []],
+    'order' => [[], ['_controller' => 'App\\Controller\\OrderController::index'], [], [['text', '/order']], [], []],
+    'review' => [[], ['_controller' => 'App\\Controller\\ReviewController::index'], [], [['text', '/review']], [], []],
+    'take_book' => [[], ['_controller' => 'App\\Controller\\TakeBookController::index'], [], [['text', '/take/book']], [], []],
+    'think' => [[], ['_controller' => 'App\\Controller\\ThinkController::index'], [], [['text', '/think']], [], []],
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
+    'user' => [[], ['_controller' => 'App\\Controller\\UserController::index1'], [], [['text', '/']], [], []],
 ];

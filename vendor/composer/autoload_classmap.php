@@ -6,6 +6,22 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controller\\BillController' => $baseDir . '/src/Controller/BillController.php',
+    'App\\Controller\\BookController' => $baseDir . '/src/Controller/BookController.php',
+    'App\\Controller\\NoteController' => $baseDir . '/src/Controller/NoteController.php',
+    'App\\Controller\\OrderController' => $baseDir . '/src/Controller/OrderController.php',
+    'App\\Controller\\ReviewController' => $baseDir . '/src/Controller/ReviewController.php',
+    'App\\Controller\\TakeBookController' => $baseDir . '/src/Controller/TakeBookController.php',
+    'App\\Controller\\ThinkController' => $baseDir . '/src/Controller/ThinkController.php',
+    'App\\Controller\\UserController' => $baseDir . '/src/Controller/UserController.php',
+    'App\\Entity\\Bill' => $baseDir . '/src/Entity/Bill.php',
+    'App\\Entity\\Book' => $baseDir . '/src/Entity/Book.php',
+    'App\\Entity\\Note' => $baseDir . '/src/Entity/Note.php',
+    'App\\Entity\\Order' => $baseDir . '/src/Entity/Order.php',
+    'App\\Entity\\Review' => $baseDir . '/src/Entity/Review.php',
+    'App\\Entity\\TakeBook' => $baseDir . '/src/Entity/TakeBook.php',
+    'App\\Entity\\Think' => $baseDir . '/src/Entity/Think.php',
+    'App\\Entity\\User' => $baseDir . '/src/Entity/User.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Collator' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',

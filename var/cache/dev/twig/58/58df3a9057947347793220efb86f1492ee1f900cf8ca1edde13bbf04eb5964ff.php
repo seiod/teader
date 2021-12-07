@@ -191,6 +191,6 @@ class __TwigTemplate_a4a2f8ab1d05b6d87d7e6b9cf2e578cb5e4459a74edc9e3d6e0771c5901
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\wamp64\\www\\teader\\website-skeleton\\templates\\base.html.twig");
+", "base.html.twig", "C:\\wamp64\\www\\teader\\templates\\base.html.twig");
     }
 }

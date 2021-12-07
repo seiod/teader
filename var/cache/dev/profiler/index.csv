@@ -1,2 +1,11 @@
-ef3dd3,::1,GET,http://localhost/teader/public/,1637013099,,404
-5d09f8,::1,GET,http://localhost/teader/public/,1637013790,,404
+0de257,::1,GET,http://www.teader.com.devel/,1638879129,,404
+4d3ea1,::1,GET,http://www.teader.com.devel/,1638892081,,404
+855547,::1,GET,http://www.teader.com.devel/,1638892267,,200
+04b3cf,::1,GET,http://www.teader.com.devel/,1638892375,,200
+dc95bc,::1,GET,http://www.teader.com.devel/,1638893102,4ec989,500
+4ec989,::1,GET,http://www.teader.com.devel/,1638893102,,500
+170952,::1,GET,http://www.teader.com.devel/,1638893168,027099,500
+027099,::1,GET,http://www.teader.com.devel/,1638893168,,500
+8bea46,::1,GET,http://www.teader.com.devel/,1638893208,,200
+0e2cc8,::1,GET,http://www.teader.com.devel/,1638893219,,200
+fb6135,::1,GET,http://www.teader.com.devel/,1638893505,,200

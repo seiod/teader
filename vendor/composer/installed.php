@@ -1,16 +1,25 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v5.3.99',
-    'version' => '5.3.99.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'symfony/website-skeleton',
+    'reference' => '087638772701ef7154f07f4bbdb0b9255fa89790',
+    'name' => '__root__',
   ),
   'versions' => 
   array (
+    '__root__' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '087638772701ef7154f07f4bbdb0b9255fa89790',
+    ),
     'composer/package-versions-deprecated' => 
     array (
       'pretty_version' => '1.11.99.4',
@@ -605,6 +614,15 @@
       array (
       ),
       'reference' => '7fd1d54c1b27f094a68ae15a99b7fc815857255f',
+    ),
+    'symfony/apache-pack' => 
+    array (
+      'pretty_version' => 'v1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3aa5818d73ad2551281fc58a75afd9ca82622e6c',
     ),
     'symfony/asset' => 
     array (
@@ -1273,15 +1291,6 @@
       array (
       ),
       'reference' => '9ba1e05fdc7a46979047ba6c8949bd35e3a386a5',
-    ),
-    'symfony/website-skeleton' => 
-    array (
-      'pretty_version' => 'v5.3.99',
-      'version' => '5.3.99.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
     ),
     'symfony/yaml' => 
     array (

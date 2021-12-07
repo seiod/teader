@@ -586,6 +586,22 @@ class ComposerStaticInitce7f9597bbe97258560eb4916d35286a
     );
 
     public static $classMap = array (
+        'App\\Controller\\BillController' => __DIR__ . '/../..' . '/src/Controller/BillController.php',
+        'App\\Controller\\BookController' => __DIR__ . '/../..' . '/src/Controller/BookController.php',
+        'App\\Controller\\NoteController' => __DIR__ . '/../..' . '/src/Controller/NoteController.php',
+        'App\\Controller\\OrderController' => __DIR__ . '/../..' . '/src/Controller/OrderController.php',
+        'App\\Controller\\ReviewController' => __DIR__ . '/../..' . '/src/Controller/ReviewController.php',
+        'App\\Controller\\TakeBookController' => __DIR__ . '/../..' . '/src/Controller/TakeBookController.php',
+        'App\\Controller\\ThinkController' => __DIR__ . '/../..' . '/src/Controller/ThinkController.php',
+        'App\\Controller\\UserController' => __DIR__ . '/../..' . '/src/Controller/UserController.php',
+        'App\\Entity\\Bill' => __DIR__ . '/../..' . '/src/Entity/Bill.php',
+        'App\\Entity\\Book' => __DIR__ . '/../..' . '/src/Entity/Book.php',
+        'App\\Entity\\Note' => __DIR__ . '/../..' . '/src/Entity/Note.php',
+        'App\\Entity\\Order' => __DIR__ . '/../..' . '/src/Entity/Order.php',
+        'App\\Entity\\Review' => __DIR__ . '/../..' . '/src/Entity/Review.php',
+        'App\\Entity\\TakeBook' => __DIR__ . '/../..' . '/src/Entity/TakeBook.php',
+        'App\\Entity\\Think' => __DIR__ . '/../..' . '/src/Entity/Think.php',
+        'App\\Entity\\User' => __DIR__ . '/../..' . '/src/Entity/User.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Collator' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',

@@ -13,6 +13,14 @@ return [
         '/_profiler/search_bar' => [[['_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'], null, null, null, false, false, null]],
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
+        '/bill' => [[['_route' => 'bill', '_controller' => 'App\\Controller\\BillController::index'], null, null, null, false, false, null]],
+        '/book' => [[['_route' => 'book', '_controller' => 'App\\Controller\\BookController::index'], null, null, null, false, false, null]],
+        '/note' => [[['_route' => 'note', '_controller' => 'App\\Controller\\NoteController::index'], null, null, null, false, false, null]],
+        '/order' => [[['_route' => 'order', '_controller' => 'App\\Controller\\OrderController::index'], null, null, null, false, false, null]],
+        '/review' => [[['_route' => 'review', '_controller' => 'App\\Controller\\ReviewController::index'], null, null, null, false, false, null]],
+        '/take/book' => [[['_route' => 'take_book', '_controller' => 'App\\Controller\\TakeBookController::index'], null, null, null, false, false, null]],
+        '/think' => [[['_route' => 'think', '_controller' => 'App\\Controller\\ThinkController::index'], null, null, null, false, false, null]],
+        '/' => [[['_route' => 'user', '_controller' => 'App\\Controller\\UserController::index1'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
